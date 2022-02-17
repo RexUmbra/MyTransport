@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateString</class>
+ <widget class="QDialog" name="CreateString">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>753</width>
+    <height>147</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>629</x>
+     <y>103</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="arrival">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>40</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Водитель</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Прицеп</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Truck">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>85</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>АО 7120-7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>АО 6222-7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>АВ 2071-7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>АТ 6804-7</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>10</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Место выезда</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>10</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Место приезда</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>30</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Тягач</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="trailer">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>81</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>А5431В-7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>А0784Е-7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>А7529В-7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>А7320Е-7</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>80</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Дата приезда</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>40</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Driver">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>151</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Сергей Котович</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Максим Кучинский</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Виктор Маркович</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Григорий Василевский</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Дата выезда</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateExit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateArrive">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>80</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Оплата</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="payment">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>100</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Оплачено</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Оплачено частично</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Не оплачено</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>80</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Расходы</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ExpansesAdd">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>100</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

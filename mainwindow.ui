@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="table">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>1211</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>120</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>№</string>
+     </property>
+     <property name="font">
+      <font>
+       <stylestrategy>PreferDefault</stylestrategy>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Тягач</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Прицеп</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Водитель</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Место выезда</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Место приезда</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Дата выезда</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Дата приезда</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Оплата</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Расходы</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="create">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Создать</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selection">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выборка</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Очистка</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="allTrip">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>10</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Все рейсы</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
